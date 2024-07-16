@@ -1,4 +1,4 @@
-mkdit "C:\ProgramData\AnyDesk"
+mkdir "C:\ProgramData\AnyDesk"
 $clnt=new-object System.Net.WebClient
 $url="http://download.anydesk.com/AnyDesk.exe"
 $file="C:\ProgramData\AnyDesk.exe"
