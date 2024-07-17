@@ -1,3 +1,4 @@
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 mkdir "C:\ProgramData\AnyDesk"
 $clnt=new-object System.Net.WebClient
 $url="http://download.anydesk.com/AnyDesk.exe"
